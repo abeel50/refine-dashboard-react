@@ -29,8 +29,12 @@ const home = () => {
 
                 <PieChart title="Total Cities" value={55}
                     series={[70, 35]} colors={["#275be8", "#c4e8ef"]} />
-
             </Box>
+            <Stack mt={"25px"} width="100%" gap={4} direction={{ xs: 'column', lg: 'row' }}>
+                <TotalRevenue />
+                <PropertyReferrals />
+
+            </Stack>
 
         </Box>
     )
