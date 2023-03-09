@@ -49,7 +49,7 @@ const Form = ({ type, register, onFinish, formLoading,
                             {/* Select */}
                             <Select displayEmpty required variant='outlined' color='info'
                                 inputProps={{ "aria-label": 'without label' }} defaultValue="apartment"
-                                {...register('type', { required: true })}>
+                                {...register('propertyType', { required: true })}>
                                 <MenuItem value="apartment">Apartment</MenuItem>
                                 <MenuItem value="villa">Villa</MenuItem>
                                 <MenuItem value="farmhouse">FarmHouse</MenuItem>
